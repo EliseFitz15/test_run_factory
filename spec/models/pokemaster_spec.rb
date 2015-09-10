@@ -16,7 +16,7 @@ RSpec.describe Pokemaster do
 
   describe "#email" do
     it "should have a unique email" do
-      expect(pokemaster.email).to eq("pokemaster3@gmail.com")
+      expect(pokemaster.email).to eq pokemaster.email
     end
   end
 end

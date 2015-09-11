@@ -1,6 +1,6 @@
 <h1> Pokemasters Directory </h1>
 
 <% @pokemasters.each do |pokemaster| %>
-  <a href="<%= pokemaster %>"><%= pokemaster.name %>
+  <a href="<%= pokemaster.id %>"><%= pokemaster.name %>
   <%= pokemaster.email %>
 <% end %>
